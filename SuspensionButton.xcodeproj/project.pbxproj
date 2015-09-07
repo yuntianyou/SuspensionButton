@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE7C66DC1B9DD0EA00472868 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7C66DB1B9DD0EA00472868 /* main.m */; };
+		FE7C66DF1B9DD0EA00472868 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7C66DE1B9DD0EA00472868 /* AppDelegate.m */; };
+		FE7C66E21B9DD0EA00472868 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7C66E11B9DD0EA00472868 /* ViewController.m */; };
+		FE7C66E51B9DD0EA00472868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE7C66E31B9DD0EA00472868 /* Main.storyboard */; };
+		FE7C66E71B9DD0EA00472868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE7C66E61B9DD0EA00472868 /* Assets.xcassets */; };
+		FE7C66EA1B9DD0EA00472868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE7C66E81B9DD0EA00472868 /* LaunchScreen.storyboard */; };
+		FE7C66F51B9DD0EA00472868 /* SuspensionButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7C66F41B9DD0EA00472868 /* SuspensionButtonTests.m */; };
+		FE7C67001B9DD0EA00472868 /* SuspensionButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7C66FF1B9DD0EA00472868 /* SuspensionButtonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE7C66F11B9DD0EA00472868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7C66CF1B9DD0EA00472868 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE7C66D61B9DD0EA00472868;
+			remoteInfo = SuspensionButton;
+		};
+		FE7C66FC1B9DD0EA00472868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7C66CF1B9DD0EA00472868 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE7C66D61B9DD0EA00472868;
+			remoteInfo = SuspensionButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE7C66D71B9DD0EA00472868 /* SuspensionButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuspensionButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE7C66DB1B9DD0EA00472868 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE7C66DD1B9DD0EA00472868 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE7C66DE1B9DD0EA00472868 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE7C66E01B9DD0EA00472868 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE7C66E11B9DD0EA00472868 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE7C66E41B9DD0EA00472868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE7C66E61B9DD0EA00472868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE7C66E91B9DD0EA00472868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE7C66EB1B9DD0EA00472868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE7C66F01B9DD0EA00472868 /* SuspensionButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuspensionButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE7C66F41B9DD0EA00472868 /* SuspensionButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuspensionButtonTests.m; sourceTree = "<group>"; };
+		FE7C66F61B9DD0EA00472868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE7C66FB1B9DD0EA00472868 /* SuspensionButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuspensionButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE7C66FF1B9DD0EA00472868 /* SuspensionButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuspensionButtonUITests.m; sourceTree = "<group>"; };
+		FE7C67011B9DD0EA00472868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE7C66D41B9DD0EA00472868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7C66ED1B9DD0EA00472868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7C66F81B9DD0EA00472868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE7C66CE1B9DD0EA00472868 = {
+			isa = PBXGroup;
+			children = (
+				FE7C66D91B9DD0EA00472868 /* SuspensionButton */,
+				FE7C66F31B9DD0EA00472868 /* SuspensionButtonTests */,
+				FE7C66FE1B9DD0EA00472868 /* SuspensionButtonUITests */,
+				FE7C66D81B9DD0EA00472868 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE7C66D81B9DD0EA00472868 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE7C66D71B9DD0EA00472868 /* SuspensionButton.app */,
+				FE7C66F01B9DD0EA00472868 /* SuspensionButtonTests.xctest */,
+				FE7C66FB1B9DD0EA00472868 /* SuspensionButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE7C66D91B9DD0EA00472868 /* SuspensionButton */ = {
+			isa = PBXGroup;
+			children = (
+				FE7C66DD1B9DD0EA00472868 /* AppDelegate.h */,
+				FE7C66DE1B9DD0EA00472868 /* AppDelegate.m */,
+				FE7C66E01B9DD0EA00472868 /* ViewController.h */,
+				FE7C66E11B9DD0EA00472868 /* ViewController.m */,
+				FE7C66E31B9DD0EA00472868 /* Main.storyboard */,
+				FE7C66E61B9DD0EA00472868 /* Assets.xcassets */,
+				FE7C66E81B9DD0EA00472868 /* LaunchScreen.storyboard */,
+				FE7C66EB1B9DD0EA00472868 /* Info.plist */,
+				FE7C66DA1B9DD0EA00472868 /* Supporting Files */,
+			);
+			path = SuspensionButton;
+			sourceTree = "<group>";
+		};
+		FE7C66DA1B9DD0EA00472868 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE7C66DB1B9DD0EA00472868 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE7C66F31B9DD0EA00472868 /* SuspensionButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE7C66F41B9DD0EA00472868 /* SuspensionButtonTests.m */,
+				FE7C66F61B9DD0EA00472868 /* Info.plist */,
+			);
+			path = SuspensionButtonTests;
+			sourceTree = "<group>";
+		};
+		FE7C66FE1B9DD0EA00472868 /* SuspensionButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE7C66FF1B9DD0EA00472868 /* SuspensionButtonUITests.m */,
+				FE7C67011B9DD0EA00472868 /* Info.plist */,
+			);
+			path = SuspensionButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE7C66D61B9DD0EA00472868 /* SuspensionButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE7C67041B9DD0EA00472868 /* Build configuration list for PBXNativeTarget "SuspensionButton" */;
+			buildPhases = (
+				FE7C66D31B9DD0EA00472868 /* Sources */,
+				FE7C66D41B9DD0EA00472868 /* Frameworks */,
+				FE7C66D51B9DD0EA00472868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuspensionButton;
+			productName = SuspensionButton;
+			productReference = FE7C66D71B9DD0EA00472868 /* SuspensionButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE7C66EF1B9DD0EA00472868 /* SuspensionButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE7C67071B9DD0EA00472868 /* Build configuration list for PBXNativeTarget "SuspensionButtonTests" */;
+			buildPhases = (
+				FE7C66EC1B9DD0EA00472868 /* Sources */,
+				FE7C66ED1B9DD0EA00472868 /* Frameworks */,
+				FE7C66EE1B9DD0EA00472868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE7C66F21B9DD0EA00472868 /* PBXTargetDependency */,
+			);
+			name = SuspensionButtonTests;
+			productName = SuspensionButtonTests;
+			productReference = FE7C66F01B9DD0EA00472868 /* SuspensionButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE7C66FA1B9DD0EA00472868 /* SuspensionButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE7C670A1B9DD0EA00472868 /* Build configuration list for PBXNativeTarget "SuspensionButtonUITests" */;
+			buildPhases = (
+				FE7C66F71B9DD0EA00472868 /* Sources */,
+				FE7C66F81B9DD0EA00472868 /* Frameworks */,
+				FE7C66F91B9DD0EA00472868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE7C66FD1B9DD0EA00472868 /* PBXTargetDependency */,
+			);
+			name = SuspensionButtonUITests;
+			productName = SuspensionButtonUITests;
+			productReference = FE7C66FB1B9DD0EA00472868 /* SuspensionButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE7C66CF1B9DD0EA00472868 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Jone;
+				TargetAttributes = {
+					FE7C66D61B9DD0EA00472868 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					FE7C66EF1B9DD0EA00472868 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FE7C66D61B9DD0EA00472868;
+					};
+					FE7C66FA1B9DD0EA00472868 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FE7C66D61B9DD0EA00472868;
+					};
+				};
+			};
+			buildConfigurationList = FE7C66D21B9DD0EA00472868 /* Build configuration list for PBXProject "SuspensionButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE7C66CE1B9DD0EA00472868;
+			productRefGroup = FE7C66D81B9DD0EA00472868 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE7C66D61B9DD0EA00472868 /* SuspensionButton */,
+				FE7C66EF1B9DD0EA00472868 /* SuspensionButtonTests */,
+				FE7C66FA1B9DD0EA00472868 /* SuspensionButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE7C66D51B9DD0EA00472868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7C66EA1B9DD0EA00472868 /* LaunchScreen.storyboard in Resources */,
+				FE7C66E71B9DD0EA00472868 /* Assets.xcassets in Resources */,
+				FE7C66E51B9DD0EA00472868 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7C66EE1B9DD0EA00472868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7C66F91B9DD0EA00472868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE7C66D31B9DD0EA00472868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7C66E21B9DD0EA00472868 /* ViewController.m in Sources */,
+				FE7C66DF1B9DD0EA00472868 /* AppDelegate.m in Sources */,
+				FE7C66DC1B9DD0EA00472868 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7C66EC1B9DD0EA00472868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7C66F51B9DD0EA00472868 /* SuspensionButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7C66F71B9DD0EA00472868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7C67001B9DD0EA00472868 /* SuspensionButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE7C66F21B9DD0EA00472868 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE7C66D61B9DD0EA00472868 /* SuspensionButton */;
+			targetProxy = FE7C66F11B9DD0EA00472868 /* PBXContainerItemProxy */;
+		};
+		FE7C66FD1B9DD0EA00472868 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE7C66D61B9DD0EA00472868 /* SuspensionButton */;
+			targetProxy = FE7C66FC1B9DD0EA00472868 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE7C66E31B9DD0EA00472868 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE7C66E41B9DD0EA00472868 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE7C66E81B9DD0EA00472868 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE7C66E91B9DD0EA00472868 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE7C67021B9DD0EA00472868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE7C67031B9DD0EA00472868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE7C67051B9DD0EA00472868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuspensionButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PA.SuspensionButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE7C67061B9DD0EA00472868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuspensionButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PA.SuspensionButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE7C67081B9DD0EA00472868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuspensionButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PA.SuspensionButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuspensionButton.app/SuspensionButton";
+			};
+			name = Debug;
+		};
+		FE7C67091B9DD0EA00472868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuspensionButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PA.SuspensionButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuspensionButton.app/SuspensionButton";
+			};
+			name = Release;
+		};
+		FE7C670B1B9DD0EA00472868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuspensionButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PA.SuspensionButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuspensionButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FE7C670C1B9DD0EA00472868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuspensionButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PA.SuspensionButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuspensionButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE7C66D21B9DD0EA00472868 /* Build configuration list for PBXProject "SuspensionButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7C67021B9DD0EA00472868 /* Debug */,
+				FE7C67031B9DD0EA00472868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE7C67041B9DD0EA00472868 /* Build configuration list for PBXNativeTarget "SuspensionButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7C67051B9DD0EA00472868 /* Debug */,
+				FE7C67061B9DD0EA00472868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE7C67071B9DD0EA00472868 /* Build configuration list for PBXNativeTarget "SuspensionButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7C67081B9DD0EA00472868 /* Debug */,
+				FE7C67091B9DD0EA00472868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE7C670A1B9DD0EA00472868 /* Build configuration list for PBXNativeTarget "SuspensionButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7C670B1B9DD0EA00472868 /* Debug */,
+				FE7C670C1B9DD0EA00472868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE7C66CF1B9DD0EA00472868 /* Project object */;
+}

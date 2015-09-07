@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "FloatView.h"
+#import "ViewController.h"
+#import "MYViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +18,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window=[[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor=[UIColor whiteColor];
+    
+    self.viw=[[ViewController alloc]initWithNibName:@"ViewController" bundle:nil];
+    
+    UINavigationController *nav =[[UINavigationController alloc]initWithRootViewController:self.viw];
+    [self.window setRootViewController:nav];
+    
+    [FloatView defaultFloatView].imageArr=@[@"btn_home_move",@"btn_home_move"];
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

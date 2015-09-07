@@ -15,6 +15,11 @@
 		FE7C66EA1B9DD0EA00472868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE7C66E81B9DD0EA00472868 /* LaunchScreen.storyboard */; };
 		FE7C66F51B9DD0EA00472868 /* SuspensionButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7C66F41B9DD0EA00472868 /* SuspensionButtonTests.m */; };
 		FE7C67001B9DD0EA00472868 /* SuspensionButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7C66FF1B9DD0EA00472868 /* SuspensionButtonUITests.m */; };
+		FE7C671A1B9DD41C00472868 /* btn_home_move.png in Resources */ = {isa = PBXBuildFile; fileRef = FE7C67171B9DD41C00472868 /* btn_home_move.png */; };
+		FE7C671E1B9DD4A300472868 /* ExceptionInfovView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7C671D1B9DD4A300472868 /* ExceptionInfovView.m */; };
+		FE7C67211B9DD50700472868 /* DetailExceptionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7C67201B9DD50700472868 /* DetailExceptionInfo.m */; };
+		FE7C67241B9DD64500472868 /* FloatView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7C67231B9DD64500472868 /* FloatView.m */; };
+		FE7C67271B9DDD4F00472868 /* MYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7C67261B9DDD4F00472868 /* MYViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		FE7C66FB1B9DD0EA00472868 /* SuspensionButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuspensionButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE7C66FF1B9DD0EA00472868 /* SuspensionButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuspensionButtonUITests.m; sourceTree = "<group>"; };
 		FE7C67011B9DD0EA00472868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE7C67171B9DD41C00472868 /* btn_home_move.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_home_move.png; sourceTree = "<group>"; };
+		FE7C671C1B9DD4A300472868 /* ExceptionInfovView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExceptionInfovView.h; sourceTree = "<group>"; };
+		FE7C671D1B9DD4A300472868 /* ExceptionInfovView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExceptionInfovView.m; sourceTree = "<group>"; };
+		FE7C671F1B9DD50700472868 /* DetailExceptionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailExceptionInfo.h; sourceTree = "<group>"; };
+		FE7C67201B9DD50700472868 /* DetailExceptionInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailExceptionInfo.m; sourceTree = "<group>"; };
+		FE7C67221B9DD64500472868 /* FloatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatView.h; sourceTree = "<group>"; };
+		FE7C67231B9DD64500472868 /* FloatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatView.m; sourceTree = "<group>"; };
+		FE7C67251B9DDD4F00472868 /* MYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYViewController.h; sourceTree = "<group>"; };
+		FE7C67261B9DDD4F00472868 /* MYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +95,7 @@
 		FE7C66CE1B9DD0EA00472868 = {
 			isa = PBXGroup;
 			children = (
+				FE7C670D1B9DD10700472868 /* view */,
 				FE7C66D91B9DD0EA00472868 /* SuspensionButton */,
 				FE7C66F31B9DD0EA00472868 /* SuspensionButtonTests */,
 				FE7C66FE1B9DD0EA00472868 /* SuspensionButtonUITests */,
@@ -105,6 +120,8 @@
 				FE7C66DE1B9DD0EA00472868 /* AppDelegate.m */,
 				FE7C66E01B9DD0EA00472868 /* ViewController.h */,
 				FE7C66E11B9DD0EA00472868 /* ViewController.m */,
+				FE7C67251B9DDD4F00472868 /* MYViewController.h */,
+				FE7C67261B9DDD4F00472868 /* MYViewController.m */,
 				FE7C66E31B9DD0EA00472868 /* Main.storyboard */,
 				FE7C66E61B9DD0EA00472868 /* Assets.xcassets */,
 				FE7C66E81B9DD0EA00472868 /* LaunchScreen.storyboard */,
@@ -138,6 +155,20 @@
 				FE7C67011B9DD0EA00472868 /* Info.plist */,
 			);
 			path = SuspensionButtonUITests;
+			sourceTree = "<group>";
+		};
+		FE7C670D1B9DD10700472868 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FE7C67171B9DD41C00472868 /* btn_home_move.png */,
+				FE7C67221B9DD64500472868 /* FloatView.h */,
+				FE7C67231B9DD64500472868 /* FloatView.m */,
+				FE7C671C1B9DD4A300472868 /* ExceptionInfovView.h */,
+				FE7C671D1B9DD4A300472868 /* ExceptionInfovView.m */,
+				FE7C671F1B9DD50700472868 /* DetailExceptionInfo.h */,
+				FE7C67201B9DD50700472868 /* DetailExceptionInfo.m */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +276,7 @@
 			files = (
 				FE7C66EA1B9DD0EA00472868 /* LaunchScreen.storyboard in Resources */,
 				FE7C66E71B9DD0EA00472868 /* Assets.xcassets in Resources */,
+				FE7C671A1B9DD41C00472868 /* btn_home_move.png in Resources */,
 				FE7C66E51B9DD0EA00472868 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,8 +302,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE7C67211B9DD50700472868 /* DetailExceptionInfo.m in Sources */,
+				FE7C67271B9DDD4F00472868 /* MYViewController.m in Sources */,
 				FE7C66E21B9DD0EA00472868 /* ViewController.m in Sources */,
 				FE7C66DF1B9DD0EA00472868 /* AppDelegate.m in Sources */,
+				FE7C671E1B9DD4A300472868 /* ExceptionInfovView.m in Sources */,
+				FE7C67241B9DD64500472868 /* FloatView.m in Sources */,
 				FE7C66DC1B9DD0EA00472868 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +534,7 @@
 				FE7C67061B9DD0EA00472868 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE7C67071B9DD0EA00472868 /* Build configuration list for PBXNativeTarget "SuspensionButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +543,7 @@
 				FE7C67091B9DD0EA00472868 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE7C670A1B9DD0EA00472868 /* Build configuration list for PBXNativeTarget "SuspensionButtonUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +552,7 @@
 				FE7C670C1B9DD0EA00472868 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
